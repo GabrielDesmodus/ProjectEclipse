@@ -1,0 +1,399 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('img/logo3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(to bottom, #000000 0%, #191919 100%);
+    text-align: center;
+    color: #D6DBDF;
+    width: 100%;
+    height: 100%;
+    text-shadow: 10px 5px 2px #000000;
+    box-shadow: 5px 0px 20px black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.index {
+    position: relative;
+    display: inline-block;
+    background-color: darkred;
+    padding: 8px;
+    border-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+    .index a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+.corelB {
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.corel {
+    position: relative;
+    display: inline-block;
+}
+
+.corelIn {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .corelIn a {
+        color: darkred;
+        font-weight: bold;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+    }
+
+        .corelIn a:hover {
+            background: linear-gradient(to bottom, #000000 0%, blue 100%);
+        }
+
+.corel:hover .corelIn {
+    display: block;
+}
+
+.corel:hover .corelB {
+    background: linear-gradient(to bottom, #000000 0%, blue 100%);
+}
+
+.polB {
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pol {
+    position: relative;
+    display: inline-block;
+}
+
+.polIn {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .polIn a {
+        color: darkred;
+        font-weight: bold;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+    }
+
+        .polIn a:hover {
+            background: linear-gradient(to bottom, #000000 0%, blue 100%);
+        }
+
+.pol:hover .polIn {
+    display: block;
+}
+
+.pol:hover .polB {
+    background: linear-gradient(to bottom, #000000 0%, blue 100%);
+}
+
+.logo img {
+    position: relative;
+    box-shadow: 15px 10px 20px black;
+    left: 40%;
+}
+
+.texto {
+    width: 100%;
+}
+
+    .texto p {
+        font-size: 25px;
+        color: #D6DBDF;
+        text-align: center;
+        text-shadow: 5px 2px 1px #000000;
+    }
+
+.highl1 {
+    color: darkred;
+}
+
+.highl2 {
+    color: #ffea00;
+}
+
+.primeiro_tema {
+    background: linear-gradient(to top, #000000 0%, #ffea00 100%);
+    box-shadow: 10px -10px 20px black;
+    width: 100%;
+    top: 100px;
+    position: relative;
+}
+
+
+    .primeiro_tema iframe {
+        background: linear-gradient(to bottom, #000000 0%, #191919 100%, #000000 0%);
+        position: relative;
+        left: 1%;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    .primeiro_tema h2 {
+        position: absolute;
+        left: 500px;
+        top: 150px;
+        color: #D6DBDF;
+        text-shadow: 10px 5px 2px #000000;
+        clear: both;
+        height: 100%;
+    }
+
+    .primeiro_tema h1 {
+        position: absolute;
+        left: 500px;
+        top: 125px;
+        color: #D6DBDF;
+        text-shadow: 10px 5px 2px #000000;
+    }
+
+.segundo_tema {
+    background: linear-gradient(to bottom, #000000 0%, #191919 100%);
+    box-shadow: 10px 10px 20px black;
+    width: 100%;
+    height: 200px;
+    top: 222px;
+    position: relative;
+}
+
+    .segundo_tema p {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        color: #D6DBDF;
+        text-shadow: 10px 5px 2px #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+    .segundo_tema h1 {
+        position: absolute;
+        right: 450px;
+        top: 90px;
+        color: #D6DBDF;
+        text-shadow: 10px 5px 2px #000000;
+        clear: both;
+    }
+
+footer {
+    background: linear-gradient(to bottom, #191919 0%, #000000 100%);
+    color: #D6DBDF;
+    width: 100%;
+    height: 150px;
+    text-shadow: 10px 5px 2px #000000;
+    padding-bottom: 0px;
+    position: relative;
+    top: 250px;
+}
+
+
+
+    footer img {
+        box-shadow: -5px 0px 20px black;
+        position: relative;
+        left: 10px;
+        top: 10px;
+        width: 7%;
+        height: auto;
+    }
+
+    footer a {
+        position: absolute;
+        left: 200px;
+        top: 50px;
+        text-decoration: none;
+        color: darkred;
+    }
+
+    footer h3 {
+        position: absolute;
+        left: 50%;
+        top: 35px;
+    }
+
+@media only screen and (max-device-width: 1200px) and (min-device-width: 661px) {
+    .segundo_tema {
+        height: 100px;
+        position: relative;
+        bottom: 50px;
+    }
+
+        .segundo_tema p {
+            top: 0px;
+            max-width: 650px;
+            position: relative;
+            right: 0px;
+            margin-left: 2px;
+            font-size: 20px;
+        }
+}
+
+@media only screen and (max-device-width: 660px) and (min-device-width: 570px) {
+    body {
+        width: 100%;
+    }
+
+    header, .segundo_tema, .primeiro_tema, footer {
+        width: 650px;
+    }
+
+    .link_list {
+        width: 660px;
+    }
+
+    footer {
+        height: 75px;
+    }
+
+        footer a {
+            left: 75px;
+        }
+
+    .segundo_tema {
+        height: 100px;
+        position: relative;
+        bottom: 50px;
+    }
+
+        .segundo_tema p {
+            top: 0px;
+            max-width: 100px;
+            position: relative;
+            right: 0px;
+            margin-left: 2px;
+            font-size: 20px;
+        }
+
+        .segundo_tema h1 {
+            top: 50px;
+            left: 30px;
+            max-width: 150px;
+        }
+
+    .primeiro_tema h2 {
+        top: 160px;
+        max-width: 150px;
+        left: 450px;
+    }
+
+    .primeiro_tema h1 {
+        top: 50px;
+        left: 450px;
+        max-width: 150px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 569px) {
+    body {
+        width: 100%;
+    }
+
+    header, .segundo_tema, .primeiro_tema, footer {
+        width: 650px;
+    }
+
+    .logo img {
+        position: relative;
+        box-shadow: 15px 10px 20px black;
+        left: 45%;
+    }
+
+    .link_list {
+        width: 660px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+        footer a {
+            left: 75px;
+        }
+
+    .segundo_tema {
+        height: 200px;
+        position: relative;
+        bottom: 500px;
+    }
+
+        .segundo_tema p {
+            top: 0px;
+            width: 600px;
+            position: relative;
+            display: inline-block;
+            margin-left: 0px;
+            font-size: 20px;
+            overflow: auto;
+            word-wrap: break-word;
+        }
+
+        .segundo_tema h1 {
+            top: 50px;
+            left: 30px;
+            max-width: 150px;
+        }
+
+    .primeiro_tema h2 {
+        top: 50px;
+        max-width: 150px;
+        left: 450px;
+    }
+
+    .primeiro_tema h1 {
+        top: 50px;
+        left: 450px;
+        max-width: 150px;
+    }
+
+    .texto p {
+        position: relative;
+        left: 120px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
