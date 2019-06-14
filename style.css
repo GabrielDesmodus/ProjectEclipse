@@ -176,6 +176,11 @@ header {
         box-shadow: 5px 0px 20px black;
     }
 
+    .primeiro_tema img:hover {
+        position:relative;
+        left:2%;
+    }
+
     .primeiro_tema h2 {
         position: absolute;
         left: 500px;
@@ -209,6 +214,12 @@ header {
         top: 70px;
         box-shadow: -5px 0px 20px black;
     }
+
+.segundo_tema img:hover {
+    
+    right:2.5%;
+    
+}
 
 .primeiro_tema:hover ~ .primeiro_tema img {
     box-shadow: none;
